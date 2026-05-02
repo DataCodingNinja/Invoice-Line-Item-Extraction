@@ -1,0 +1,30 @@
+streamlit>=1.20
+pandas>=1.5
+numpy>=1.24
+easyocr>=1.6
+pillow>=9.0
+reportlab>=3.6
+pdf2image>=1.16
+pymupdf>=1.22
+opencv-python-headless>=4.7
+torch>=1.12.0
+
+# Core
+easyocr>=1.6.2
+torch>=1.12.0
+
+# Optional (common utilities used in OCR/invoice projects)
+torchvision>=0.13.0
+numpy>=1.22
+opencv-python>=4.6
+pillow>=9.2
+pandas>=1.5
+scikit-learn>=1.1
+matplotlib>=3.6
+pdf2image>=1.16
+
+# For Windows: ensure compatible MSVC redistributable is installed (not a pip package)
+# Developer convenience
+tqdm>=4.64
+pytest>=7.0
+flake8>=6.0
